@@ -27,3 +27,4 @@ output = model.predict(X_test_vector)
 joblib.dump(model, "logistic_model.pkl")
 joblib.dump(vector, "vectorizer.pkl")
 
+print("Accuracy:", accuracy_score(y_test, output))
