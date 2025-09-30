@@ -16,11 +16,11 @@ if st.button("Classify"):
     if user_input.strip() == "":
         st.warning("Please type a message first!")
     else:
-        # Transform the input using the same vectorizer
+        #  using the same vectorizer
         input_vector = vectorizer.transform([user_input])
         prediction = model.predict(input_vector)[0]
 
-        # Show result
+        # result
         if prediction == 1:
             st.error("🚨 This looks like SPAM!")
         else:

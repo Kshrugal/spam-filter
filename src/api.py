@@ -1,34 +1,29 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import joblib
+
+app = Flask(__name__)
+CORS(app)  # 🚀 allow requests from Chrome extension
 
 # Load model and vectorizer
 model = joblib.load("logistic_model.pkl")
 vectorizer = joblib.load("vectorizer.pkl")
 
-# Initialize Flask app
-app = Flask(__name__)
-
-@app.route("/", methods=["GET"])
-def home():
-    return jsonify({"message": "Spam Classifier API is running 🚀"})
-
 @app.route("/predict", methods=["POST"])
 def predict():
-    try:
-        data = request.get_json()
-        text = data.get("message", "")
+    data = request.get_json()
+    if not data or "message" not in data:
+        return jsonify({"error": "No message provided"}), 400
 
-        if not text.strip():
-            return jsonify({"error": "Message is empty"}), 400
+    message = data["message"]
+    vector = vectorizer.transform([message])
+    prediction = model.predict(vector)[0]
+    confidence = model.predict_proba(vector).max() * 100
 
-        # Transform text using vectorizer
-        input_vector = vectorizer.transform([text])
-        prediction = model.predict(input_vector)[0]
-
-        result = "spam" if prediction == 1 else "ham"
-        return jsonify({"prediction": result})
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
+    return jsonify({
+        "prediction": "spam" if prediction == 1 else "ham",
+        "confidence": round(confidence, 2)
+    })
 
 if __name__ == "__main__":
     app.run(debug=True)
