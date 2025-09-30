@@ -1,30 +1,37 @@
+import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics import accuracy_score, confusion_matrix
-import pandas as pd
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 import joblib
 
+df1 = pd.read_csv("data/mail_data.csv")
+df2 = pd.read_csv("data/spam_ham_dataset.csv")
+df3 = pd.read_csv("data/generated_emails.csv")
 
-df = pd.read_csv("data/spam_ham_dataset.csv")
+combined_df = pd.concat([df1, df2, df3], ignore_index=True)
+combined_df = combined_df.dropna()
 
-useful = df.iloc[:, [1, 2]]
-X = useful.iloc[:, 1]
-y = useful.iloc[:, 0]
-y = y.map({'ham': 0, 'spam': 1}).astype(int)
+X = combined_df["text"]
+y = combined_df["label"]
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=13)
 
-vector = TfidfVectorizer()
-X_train_vector = vector.fit_transform(X_train)
-X_test_vector = vector.transform(X_test)
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=13
+)
+
+vectorizer = TfidfVectorizer()
+X_train_vector = vectorizer.fit_transform(X_train)
+X_test_vector = vectorizer.transform(X_test)
 
 model = LogisticRegression()
 model.fit(X_train_vector, y_train)
 
-output = model.predict(X_test_vector)
+y_pred = model.predict(X_test_vector)
 
-joblib.dump(model, "logistic_model.pkl")
-joblib.dump(vector, "vectorizer.pkl")
+print("Accuracy on combined dataset: {:.2f}%".format(accuracy_score(y_test, y_pred) * 100))
+print("\nConfusion Matrix:\n", confusion_matrix(y_test, y_pred))
+print("\nClassification Report:\n", classification_report(y_test, y_pred))
 
-print("Accuracy:", accuracy_score(y_test, output))
+joblib.dump(model, "src/logistic_model.pkl")
+joblib.dump(vectorizer, "src/vectorizer.pkl")
