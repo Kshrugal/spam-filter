@@ -1,0 +1,326 @@
+label,text
+ham,"Subject: Your order has been delivered
+
+Hello David,
+
+We're happy to inform you that your order #12345 has been delivered. We hope you enjoy your new purchase! If you have any questions, feel free to contact our support team.
+
+Best,
+Customer Service"
+spam,"Subject: ATTENTION: Your account is at risk
+
+Dear customer,
+
+We have detected some unusual activity on your account. To prevent your account from being locked, you must click on the link below to verify your details immediately: http://account-security-alert.org/verify"
+ham,"Subject: Re: Project Proposal
+
+Hey Mark,
+
+I've reviewed the proposal and it looks great. The changes you made are exactly what we needed. I'll send it to the client for final approval.
+
+Cheers,
+Jane"
+spam,"Subject: You've Won! Claim Your Prize Now!
+
+Congratulations! You have been randomly selected to win a free gift card. To claim your prize, please click on the link below and provide your personal information.
+
+Claim your prize here: http://win-a-prize.net/claim"
+ham,"Subject: Follow-up on our meeting
+
+Hi Team,
+
+Just wanted to send a quick follow-up email. We're on track to meet the deadline, and everyone's contributions have been great. Let's keep up the good work!
+
+Thanks,
+Chris"
+spam,"Subject: FINAL WARNING: Account Suspended
+
+Your bank account has been flagged for fraudulent activity. To avoid a permanent suspension, please log in and update your security information immediately: http://bank-secure-update.com/login"
+ham,"Subject: Your flight itinerary
+
+Hello Sarah,
+
+This is a confirmation of your flight from New York to London on November 10th at 9 AM. Your ticket is attached as a PDF. We look forward to seeing you at the airport!
+
+Best,
+Airlines Customer Service"
+spam,"Subject: Urgent: Your account is locked
+
+We have placed a temporary hold on your account due to a security issue. To restore your access, please click on the link below and verify your identity.
+
+Verify your account: http://account-verification.org/login"
+ham,"Subject: Re: Your recent inquiry
+
+Hi John,
+
+Thank you for reaching out to us. I've reviewed your inquiry and have provided a detailed response in the attached document. Please let me know if you have any other questions.
+
+Best regards,
+Lisa"
+spam,"Subject: A great investment opportunity!
+
+Do you want to get rich quick? We have a new investment that guarantees a 100% return on your money. No risk and no fees. Click here to learn more: http://get-rich-quick.com/invest"
+ham,"Subject: The project timeline has been updated
+
+Hi Alex,
+
+I've updated the project timeline to reflect the new changes we discussed. You can access the document from our shared drive. Please take a look and provide your feedback by tomorrow.
+
+Best,
+Maria"
+spam,"Subject: Amazing offer just for you!
+
+Click here to get a 70% discount on all our products. We have a limited-time offer that you won’t want to miss. Get started today! http://exclusive-discount.com/offer"
+ham,"Subject: Question about the report
+
+Hey Team,
+
+I'm working on the quarterly report and have a question about the sales data for the last quarter. Could you provide a quick clarification on the numbers?
+
+Thanks,
+Kevin"
+spam,"Subject: Fwd: Important Update
+
+Your Amazon account was recently accessed from a new device in an unknown location. If this was not you, please secure your account immediately by following this link.
+
+https://www.amazon-security-alert.com/login
+
+Note: Failure to comply may result in temporary account suspension."
+ham,"Subject: Your order #98765 has been confirmed
+
+Hello Sarah,
+
+Thank you for your recent purchase! Your order is being processed and will be shipped within 1-2 business days. We will send you a tracking number once it's on its way.
+
+Thanks for shopping with us,
+Store Team"
+spam,"Subject: FINAL WARNING - ACCOUNT SUSPENSION
+
+Your account has been identified as being at risk. To secure your account and prevent it from being suspended, you must verify your information immediately. Click on the link below to get started: http://account-support-help.org/verify"
+ham,"Subject: Office closure due to holiday
+
+Hi Team,
+
+Just a reminder that our office will be closed on Friday for the upcoming holiday. We'll resume normal business hours on Monday. Enjoy your long weekend!
+
+Cheers,
+HR Department"
+spam,"Subject: Your payment has been declined
+
+Dear customer,
+
+We were unable to process your recent payment. To resolve this issue, please update your billing information on our secure platform: http://billing-update.com/update"
+ham,"Subject: Re: Quick question
+
+Hey Mark,
+
+Good question. The answer is yes, we can definitely move forward with that plan. I'll get the ball rolling on my end. 
+
+Best,
+Alex"
+spam,"Subject: We Found A Virus On Your Computer
+
+We have scanned your computer and found that it is infected with a serious virus. Your personal and financial information is at risk. Please click on the following link and download our recommended antivirus software to fix the problem.
+
+Scan and Repair Now: https://www.secure-my-computer.biz/download"
+ham,"Subject: Your upcoming appointment
+
+Hello Jane,
+
+This is a confirmation of your appointment with us on November 15th at 3 PM. We look forward to seeing you then. 
+
+Thank you,
+Customer Service Team"
+spam,"Subject: GET THE BEST DEALS ON PHARMACY!!!
+
+Hello,
+
+We are offering the best deals on prescription drugs and other medical products. You don't need a prescription. All you need to do is click the link below and place your order.
+
+Buy now at a huge discount: http://cheap-meds-online.biz"
+ham,"Subject: Re: Feedback on the proposal
+
+Hi Sarah,
+
+Thanks for the feedback. I've made the requested changes and attached the revised proposal. Let me know if it's all good to go.
+
+Cheers,
+John"
+spam,"Subject: You're invited to claim a prize
+
+You've been specially selected to receive a brand new smartphone. To claim your prize, please click the link below and provide your shipping details. This offer is valid for a limited time.
+
+Click to claim: http://smartphone-prize.net/claim"
+ham,"Subject: Project update
+
+Hi Alex,
+
+I've finished the first phase of the project and have sent the files to the shared drive. Let me know if you have any questions.
+
+Thanks,
+Maria"
+spam,"Subject: You're eligible for a $100 gift card!
+
+To celebrate our 10th anniversary, we are giving away $100 gift cards! You've been chosen as a lucky recipient. Click on the link below to get your free gift card.
+
+Claim your gift now: http://free-gift-card.com/get"
+ham,"Subject: Your flight itinerary for ORD to LAX
+
+Hello Jane,
+
+Here's your flight confirmation and itinerary for your upcoming trip. Your flight, AA1234, departs from O'Hare International Airport (ORD) on November 5th at 3:30 PM, arriving at Los Angeles International Airport (LAX) at 5:50 PM. The ticket is attached as a PDF. Please let us know if you have any questions. 
+
+Thank you for flying with us,
+American Airlines"
+spam,"Subject: Get your money now. 100% no fees.
+
+Congratulations! You are eligible for an instant loan of up to $50,000. No credit check required! We can transfer the funds to your account within 24 hours. Click here to apply: http://fast-loan-approved.co/apply
+
+This is a limited-time offer. Act now!"
+ham,"Subject: Update on the Q4 Budget
+
+Hi Team,
+
+Following our discussion, I have updated the Q4 budget spreadsheet. I've highlighted the changes in yellow. Please review and provide your final approval by Friday. You can find the file in our shared drive. 
+
+Thanks,
+Kevin"
+spam,"Subject: Your PayPal Account Has Been Limited
+
+Dear valued PayPal member,
+
+We have placed a temporary limitation on your account due to an issue with your billing information. To restore full access, please log in to your account and update your details. 
+
+Update your account here: https://www.paypal-secure.net/account/update"
+ham,"Subject: Re: Quick question about the user interface
+
+Hi Sarah,
+
+Good question. The new UI is still in beta, so we're working on making the navigation more intuitive. I've attached a quick mockup of the proposed changes. Let's schedule a call to walk through it together. 
+
+Cheers,
+Lisa"
+spam,"Subject: Security Alert: Unauthorized sign-in attempt
+
+Your Amazon account was recently accessed from an unrecognized device in a new location. If this was not you, please secure your account immediately by following this link.
+
+https://www.amazon-security-alert.com/login
+
+Note: Failure to comply may result in temporary account suspension."
+ham,"Subject: Meeting with the client next week
+
+Hi Alex,
+
+Just a reminder about our client meeting next Wednesday at 2 PM. I've sent over the final presentation deck. Let me know if you can make it, as we need both of us there. 
+
+Regards,
+Chris"
+spam,"Subject: FREE GIFT VOUCHER: Claim Your $500 Walmart Card Today!
+
+Dear Shopper,
+
+To show our appreciation for your loyalty, we are giving away $500 gift cards to our top customers! You have been randomly selected to receive one. To claim your free gift voucher, simply click on the link below and provide your details.
+
+Claim your gift now: http://walmart-rewards.store/voucher"
+ham,"Subject: Project Milestone 2 Complete!
+
+Team,
+
+Great news! We have successfully completed Project Milestone 2 ahead of schedule. Thank you all for your hard work and dedication. Let's keep the momentum going as we head into the final phase of the project.
+
+Cheers,
+The Project Manager"
+spam,"Subject: Fwd: Urgent: Your account is at risk
+
+Dear valued client,
+
+We've noticed several login attempts from a new location on your account. To prevent any fraudulent activity, please log in immediately and change your password. 
+
+Login here: http://security-verify.org/login"
+ham,"Subject: Project timeline update
+
+Hello Team,
+
+Just wanted to let you know that we're on schedule to complete the first phase of the project by Friday. Thanks for all your hard work! Keep it up!
+
+Best regards,
+Sarah"
+spam,"Subject: You've been chosen for a new job opportunity
+
+Are you looking for a new job? We have the perfect opportunity for you! No resume required, just click on the link below and start your new career.
+
+Click here to apply: http://new-job-now.net/apply"
+ham,"Subject: Our lunch plans
+
+Hey Jane,
+
+Just confirming our lunch plans for tomorrow at noon. I've made a reservation at the new cafe downtown. Let me know if that still works for you.
+
+Cheers,
+Michael"
+spam,"Subject: GET A FREE LOAN INSTANTLY!
+
+We can offer you a loan of up to $100,000 without any credit check! You can get the money instantly with no fees or paperwork. Click here to apply: http://instant-loan-approval.com/loan"
+ham,"Subject: Re: Question about the presentation
+
+Hi Alex,
+
+The presentation deck is finalized. I've attached it to this email. Let me know if you have any feedback before we present it on Friday.
+
+Thanks,
+Lisa"
+spam,"Subject: You have a virus on your computer
+
+We have detected a virus on your computer that is putting your personal data at risk. To remove the virus, you must download our antivirus software. Click on the link to get started: http://virus-removal-software.com/download"
+ham,"Subject: Reminder: Team meeting
+
+Hi Team,
+
+This is a friendly reminder that our team meeting is scheduled for tomorrow at 2 PM. Please prepare your updates for the report. I look forward to seeing you all there.
+
+Best,
+Project Lead"
+spam,"Subject: Limited time offer - 70% off!
+
+This is a limited time offer just for you! Get a 70% discount on all our products. This offer expires in 48 hours. Don't miss out on this great deal!
+
+Shop now: http://limited-time-sale.com/offer"
+ham,"Subject: Your order has been delivered
+
+Hello Sarah,
+
+Good news! Your order #12345 has been delivered. We hope you enjoy your new product! If you have any issues, please contact our support team.
+
+Best,
+Customer Service"
+spam,"Subject: You're invited to claim a prize
+
+You've been specially selected to receive a brand new smartphone. To claim your prize, please click the link below and provide your shipping details. This offer is valid for a limited time.
+
+Click to claim: http://smartphone-prize.net/claim"
+ham,"Subject: Re: Feedback on the proposal
+
+Hi Mark,
+
+Thanks for the feedback. I've made the requested changes and attached the revised proposal. Let me know if it's all good to go.
+
+Cheers,
+John"
+spam,"Subject: Your Amazon account has been suspended
+
+We have placed a temporary suspension on your Amazon account due to an issue with your payment information. Please click the link below to verify your details and restore your account access.
+
+Update your account here: http://amazon-secure-update.com/login"
+ham,"Subject: Project update
+
+Hi Alex,
+
+I've finished the first phase of the project and have sent the files to the shared drive. Let me know if you have any questions.
+
+Thanks,
+Maria"
+spam,"Subject: You're eligible for a $100 gift card!
+
+To celebrate our 10th anniversary, we are giving away $100 gift cards! You've been chosen as a lucky recipient. Click on the link below to get your free gift card.
+
+Claim your gift now: http://free-gift-card.com/get"
